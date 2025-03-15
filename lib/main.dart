@@ -23,15 +23,8 @@ void main() async {
     if (kIsWeb) {
       await Firebase.initializeApp(
         options: const FirebaseOptions(
-          apiKey: "AIzaSyDC9yV_qkXDcUS9_YPsWVeOjOUCb597fEY",
-          authDomain: "csedu-1.firebaseapp.com",
-          projectId: "csedu-1",
-          databaseURL:
-              "https://csedu-1-default-rtdb.firebaseio.com", // Ensure this is correct
-          storageBucket: "csedu-1.appspot.com",
-          messagingSenderId: "894403809910",
-          appId: "1:894403809910:web:196342047e0117295d4557",
-          measurementId: "G-R6WPHRGHZE",
+          //firebase options
+            
         ),
       );
     } else {
